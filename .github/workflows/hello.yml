@@ -1,0 +1,19 @@
+name: Hello GitHub Actions
+
+on:
+  push:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Hello DevOps"
+
+      - run: pwd
+
+      - run: whoami
+
+      - run: uname -a
+
+      - run: ls -la
